@@ -8,6 +8,8 @@ public class TestDao {
 		
 		System.out.println(dao.listAllFood());
 		System.out.println(dao.listAllCondiment());
+		System.out.println(dao.listAllCondimentbycalories(600.0));
+
 
 	}
 
